@@ -1,0 +1,22 @@
+class Binatang:
+    def __init__(self, nama, warna):
+        self.nama = nama
+        self.warna = warna
+
+class Anjing(Binatang):
+    def BunyiAnjing(self):
+        print("Gug Gug")
+
+class Kucing(Binatang):
+    def BunyiKucing(self):
+        print("Meow Meow")
+
+Dogi = Anjing("Dogi", "Coklat")
+Black = Kucing("Black", "Hitam")
+
+print(Dogi.nama)
+print(Dogi.warna)
+Dogi.BunyiAnjing()
+print(Black.nama)
+print(Black.warna)
+Black.BunyiKucing()
