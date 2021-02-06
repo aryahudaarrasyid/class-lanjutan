@@ -9,6 +9,13 @@ __and__ for &
 __xor__ for ^
 __or__ for |
 
+__lt__ for <
+__le__ for <=
+__eq__ for ==
+__ne__ for !=
+__gt__ for >
+__ge__ for >=
+
 class Vector2d:
     def __init__(self, x, y):
         self.x = x
